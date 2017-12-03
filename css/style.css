@@ -46,7 +46,7 @@ html {
 
 body {
   background: #0a0c0d;
-  font-family: lato;
+  /*font-family: lato;*/
   font-weight: 300;
   line-height: 1.9;
   font-size: 16px;
@@ -452,7 +452,7 @@ input.input, textarea, input[type=password], input[type=text], input[type=email]
 }
 
 .btn {
-  padding: 0;
+  padding: 13px;
   margin-bottom: 20px;
 }
 
@@ -1739,7 +1739,7 @@ body.under-construction #wrapper {
   line-height: 1.5;
 }
 .team .team-info .name {
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: bold;
   text-transform: uppercase;
 }
