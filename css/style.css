@@ -69,6 +69,16 @@ a {
   outline: none;
   transition: color .3s ease;
 }
+@media (max-width: 412px) {
+  a {
+    color: #fff;
+    font-size: 10px;
+    padding: 7px 0;
+    position: relative;
+    outline: none;
+    transition: color .3s ease;
+  }
+}
 a:before {
   background: #fff;
   content: '';
@@ -169,6 +179,11 @@ h3, .h3 {
   font-size: 1.875rem;
   margin-bottom: 12px;
 }
+@media (max-width: 412px) {
+  h3, .h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
 
 h4, .h4 {
   font-size: 1.5rem;
@@ -212,7 +227,10 @@ hr:after {
 
 p {
   margin: 0 0 30px;
-  font-family: lato;
+  /*font-family: lato;*/
+}
+.stricken {
+  text-decoration: line-through;
 }
 
 figcaption {
@@ -2384,6 +2402,16 @@ _:-ms-fullscreen, :root .glich-button:after {
   white-space: nowrap;
   width: 100%;
 }
+@media (max-width: 412px) {
+  .social-icons {
+    display: inline-block;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 0;
+    white-space: nowrap;
+    width: 100%;
+  }
+}
 .social-icons a {
   color: #fff;
   display: inline-block;
@@ -2558,7 +2586,10 @@ body:after {
 a.no-line:before {
   display: none;
 }
-
+.logo {
+  width: 100px;
+  height: auto;
+}
 .logotype {
   display: inline-block;
   padding: 0;
@@ -2571,9 +2602,25 @@ a.no-line:before {
 .logotype:visited, .logotype:hover, .logotype:active, .logotype:focus {
   color: #fff;
 }
-.logotype.hidde {
+.logotype.hidden {
   opacity: 0;
   visibility: hidden;
+}
+
+@media (max-width: 412px) {
+  .logo {
+    width: 30px;
+    height: auto;
+    display: inline;
+  }
+  .logotype {
+    display: inline-block;
+    padding: 0;
+    margin-left: -5px;
+    font: 400 10px/1 intro;
+    color: #fff;
+    letter-spacing: 0em;
+  }
 }
 
 .btn.form-sender {
