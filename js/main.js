@@ -257,7 +257,8 @@ var $ = jQuery;
 						bodyElem = $('body');
 
 				$.ajax({
-					url  : 'php/contact.php',
+					url: "https://formspree.io/ag@getonpace.org",
+					// url  : 'php/contact.php',
 					type : 'POST',
 					data : $this.closest('#contactform').serialize(),
 					beforeSend: function() {
