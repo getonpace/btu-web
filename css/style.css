@@ -2625,6 +2625,10 @@ a.no-line:before {
     color: #fff;
     letter-spacing: 0em;
   }
+  .logomark {
+    width: 350px;
+    height: auto;
+  }
 }
 
 .btn.form-sender {
