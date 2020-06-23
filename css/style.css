@@ -2607,7 +2607,10 @@ a.no-line:before {
   opacity: 0;
   visibility: hidden;
 }
-
+.logomark {
+  width: 1000px;
+  height: auto;
+}
 @media (max-width: 412px) {
   .logo {
     width: 30px;
